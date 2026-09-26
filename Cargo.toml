@@ -1,0 +1,13 @@
+[package]
+name = "durable_actor"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = ["domain", "event_store", "actor", "ingest", "app"]
+
+
+[dependencies]
+
+
+
